@@ -20,7 +20,7 @@ It can query anything that the server's software sends in UnconnectedPong, but t
 2. Drop the downloaded PHAR or source inside of your virions folder
 3. Import the ``twisted\bedrockserverquery\BedrockServerQuery`` class
 4. Use the static ``getInfo(string ip, [int port = 19132])`` method
-5. Use the returned ``twisted\bedrockserverquery\ServerQueryInformation`` object to get the information you need
+5. Use the returned ``twisted\bedrockserverquery\ServerQueryInformation`` object to get the information you need.
 
 ## Example
 In this example, the player count of another server is broadcasted every 5 minutes to all online players, unless it is offline it will say the server is offline.
