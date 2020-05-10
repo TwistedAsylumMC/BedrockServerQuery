@@ -1,0 +1,8 @@
+name: BedrockServerQuery
+description: "A virion to query information from other Minecraft: Bedrock Edition servers"
+
+antigen: twisted\bedrockserverquery
+version: 1.0.0
+api: 3.0.0
+
+authors: [Twisted]
